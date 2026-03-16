@@ -1,0 +1,25 @@
+.project-headline {
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    text-align: start;
+    color: #37ae3c;
+    user-select: none;
+}
+
+.project-links {
+}
+
+.linkedin-link {
+    color: #0077B5;
+    margin: .2rem;
+    transition: color 0.25s;
+}
+
+.linkedin-link:hover {
+    color: white;
+}

@@ -11,12 +11,12 @@ export function PageName() {
     return (
         <div>
             <a className='blink' style={{cursor: "default", textDecoration: "none"}}>&#x3E;</a>
-        <span className='blink' style={{ marginLeft: "1em" }}>{pageName}</span>
+            <span className='blink' style={{ marginLeft: "1em" }}>{pageName}</span>
         </div>
     );
 }
 
-export default function Header() {
+export default function Nav() {
     return (
         <>
         <section>
@@ -24,7 +24,7 @@ export default function Header() {
                 <PageName></PageName>
                 <Link to="/" className='navbtn' data-text="Home">Home</Link>
                 <Link to="/About" className='navbtn' data-text="About">About</Link>
-                <Link to="/" className='navbtn' data-text="MyWork">My Work</Link>
+                <Link to="/MyWork" className='navbtn' data-text="MyWork">My Work</Link>
             </div>
         </section>
         </>

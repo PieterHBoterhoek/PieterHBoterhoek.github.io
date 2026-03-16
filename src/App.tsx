@@ -5,9 +5,10 @@ import PageTransition from './Anim/PageTransition.tsx';
 
 import './css/App.css'
 
-import Header from './Elements/Header.tsx';
+import Nav from './Elements/Nav.tsx';
 import MainPage from './Pages/MainPage.tsx';
 import About from './Pages/About.tsx';
+import MyWorkPage from './Pages/MyWorkPage.tsx';
 import Footer from './Elements/Footer.tsx';
 
 
@@ -39,6 +40,17 @@ function AnimatedRoutes() {
             </PageTransition>
           }
         />
+        <Route
+          path="/MyWork"
+          element={
+            <PageTransition>
+              <MyWorkPage />
+              <footer>
+                <Footer />
+              </footer>
+            </PageTransition>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
@@ -47,7 +59,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <BrowserRouter>
-      <Header></Header>
+      <Nav></Nav>
       <AnimatedRoutes />
     </BrowserRouter>
   )

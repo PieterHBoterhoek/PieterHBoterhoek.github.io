@@ -9,7 +9,6 @@ const funFacts: string[] = [
     "I love symphonic metal music",
     "I got two lovebirds birds called Lalo and Nina",
     "I'm in my third year of my study",
-    "I'm currently learning WEM and Data modeling",
     "My main guitar is the Schecter Omen 6",
     "I like birds, like a lot",
     "I like to stay far away from PHP"
