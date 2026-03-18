@@ -6,12 +6,9 @@
 .ascii-art {
     font-family: monospace;
     white-space: pre;
-    text-align: start;
+    text-align: center;
     color: #37ae3c;
     user-select: none;
-}
-
-.project-links {
 }
 
 .linkedin-link {
@@ -22,4 +19,23 @@
 
 .linkedin-link:hover {
     color: white;
+}
+
+.seperator {
+    border-bottom: 2px dashed #373737;
+    width: 100%;
+}
+
+.gif {
+    min-width: 150px
+}
+
+.project-links {
+    margin: 1rem;
+}
+
+.gh-link {
+    color: orange;
+    margin: .2rem;
+    transition: color 0.25s;
 }
