@@ -31,7 +31,7 @@ export default function MyWorkPage() {
                     <img src={Arduinogif}></img>
                 </div>
                 <div className="project-links">
-                    <a className="gh-link" href="https://github.com/yoshiappel/Arduino-Reactietijd-tester" target="_blank">Github repository</a>
+                    <a className="gh-link" href="https://github.com/PieterHBoterhoek/Arduino-Reactietijd-tester" target="_blank">Github repository</a>
                 </div>
             </div>
             <div className="seperator"></div>
