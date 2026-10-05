@@ -1,5 +1,4 @@
 import "../css/MyWorkPage.css"
-import Arduinogif from "../assets/Arduino.gif"
 
 export default function MyWorkPage() {
     return (
