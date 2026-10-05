@@ -54,6 +54,12 @@ export default function Timeline() {
                 <p>Maarsingh en van Steijn</p>
                 </div>
             </div>
+            <div className="timeline-item">
+                <div className="timeline-content">
+                <h3>2026</h3>
+                <p>Museum Project</p>
+                </div>
+            </div>
         </div>
         <Toggle></Toggle>
         </>
