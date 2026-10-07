@@ -11,13 +11,13 @@ export default function Footer() {
             <p>feel free to contact me via,</p>
             <div className='socials-card'>
                 <a href="https://github.com/PieterHBoterhoek" target="_blank">
-                <img src={githublogo} className="logo" alt="Github logo" />
+                <img src={githublogo} className="logo gh" alt="Github logo" />
                 </a>
                 <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#112;&#105;&#101;&#116;&#104;&#098;&#111;&#116;&#101;&#114;&#104;&#111;&#101;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank">
-                <img src={maillogo} className="logo" alt="Mail logo" />
+                <img src={maillogo} className="logo mail" alt="Mail logo" />
                 </a>
                 <a href="https://linkedin.com/in/piethendrikboterhoek" target="_blank">
-                <img src={linkedinlogo} className="logo" alt="Linkedin logo" />
+                <img src={linkedinlogo} className="logo linkedin" alt="Linkedin logo" />
                 </a>
             </div> 
         </section>

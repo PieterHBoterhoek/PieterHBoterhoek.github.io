@@ -16,8 +16,16 @@ section {
   transition: filter 300ms;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #e0e0e0aa);
+.logo.linkedin:hover {
+  filter: drop-shadow(15px 15px 0.75em #0248c1aa);
+}
+
+.logo.gh:hover {
+  filter: drop-shadow(-15px 15px 0.75em #8a8a8aaa);
+}
+
+.logo.mail:hover {
+  filter: drop-shadow(0 15px 0.75em #b28302aa);
 }
 
 .small {
