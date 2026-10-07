@@ -8,10 +8,17 @@
 }
 
 .blink {
-    left: 1%;
-    position: absolute;
-    animation: blink-animation 3s steps(5, start) infinite;
-    -webkit-animation: blink-animation 3s steps(5, start) infinite;
+    display: none;
+}
+
+@media screen and (min-width: 450px) {
+    .blink {
+        display: block;
+        left: 1%;
+        position: absolute;
+        animation: blink-animation 3s steps(5, start) infinite;
+        -webkit-animation: blink-animation 3s steps(5, start) infinite;
+    }   
 }
 
 @keyframes blink-animation {

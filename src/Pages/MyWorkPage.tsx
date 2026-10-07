@@ -11,7 +11,10 @@ export default function MyWorkPage() {
                         ██║   ██║██║   ██║██║  ███╔╝    ██║   ██║   ██║██║     ███████║   ██║   <br />
                         ██║▄▄ ██║██║   ██║██║ ███╔╝     ██║   ██║   ██║██║     ██╔══██║   ██║   <br />
                         ╚██████╔╝╚██████╔╝██║███████╗   ██║   ╚██████╔╝╚██████╗██║  ██║   ██║   <br />
-                        &#6158; ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝   ╚═╝    ╚═════╝  ╚═════╝╚═╝  ╚═╝   ╚═╝
+                        ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝   ╚═╝    ╚═════╝  ╚═════╝╚═╝  ╚═╝   ╚═╝
+                    </div>
+                    <div className="qt-logo">
+                        <h2 className="logo-title">QUIZTOCHT</h2>
                     </div>
                 </div>
                 <p>Quiztocht is a interactive/educative quizplatform, <br /> designed to give for example museums and zoo's an easy way to implement quizzes.</p>

@@ -2,13 +2,19 @@
     padding: 1rem;
     border-radius: 10px;
 }
-
 .ascii-art {
-    font-family: monospace;
-    white-space: pre;
-    text-align: center;
-    color: #37ae3c;
-    user-select: none;
+   display: none;
+}
+
+@media screen and (min-width: 450px) {
+    .ascii-art {
+        display: block;
+        font-family: monospace;
+        white-space: pre;
+        text-align: center;
+        color: #37ae3c;
+        user-select: none;
+    }
 }
 
 .linkedin-link {
@@ -38,4 +44,9 @@
     color: orange;
     margin: .2rem;
     transition: color 0.25s;
+}
+
+.logo-title {
+    color: green;
+    font-size: 2em;
 }

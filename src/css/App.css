@@ -37,6 +37,7 @@ section {
 }
 
 .title {
+  font-size: 2em;
   margin: 0;
   padding: 0;
 }
@@ -46,6 +47,6 @@ section {
 }
 
 .card {
-  margin: 50px;
-  padding: 2em;
+    margin: 0.5em;
+    padding: 2em;
 }
