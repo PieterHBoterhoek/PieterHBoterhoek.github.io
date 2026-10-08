@@ -6,6 +6,11 @@
    display: none;
 }
 
+.logo-title {
+    color: green;
+    font-size: 2em;
+}
+
 @media screen and (min-width: 450px) {
     .ascii-art {
         display: block;
@@ -14,6 +19,9 @@
         text-align: center;
         color: #37ae3c;
         user-select: none;
+    }
+    .logo-title {
+        display: none;
     }
 }
 
@@ -46,7 +54,3 @@
     transition: color 0.25s;
 }
 
-.logo-title {
-    color: green;
-    font-size: 2em;
-}
