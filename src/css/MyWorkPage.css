@@ -9,9 +9,10 @@
 .logo-title {
     color: green;
     font-size: 2em;
+    display: block;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 800px) {
     .ascii-art {
         display: block;
         font-family: monospace;
